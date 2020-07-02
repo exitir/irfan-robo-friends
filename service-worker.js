@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/irfan-robo-friends/precache-manifest.04cb4b862899281fb7c3913bfd11201e.js"
+  "/irfan-robo-friends/precache-manifest.6707a945b582eefe900c420ca44869c5.js"
 );
 
 self.addEventListener('message', (event) => {
