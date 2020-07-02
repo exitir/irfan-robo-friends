@@ -6,7 +6,7 @@ const Card = (props) => {
     // or in side parameters it can be done directly e.g. const Card = ({ name, email, id }) => {
     return (
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
-            <img alt='robots' src={`https://robohash.org/${props.id}`}></img>
+            <img alt='robots' src={`https://robohash.org/${Math.floor(Math.random() * 20) + 1}`}></img>
             <div>
                 <h2> {props.name}</h2>
                 <h3>{props.id}</h3>
