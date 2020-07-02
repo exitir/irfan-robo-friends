@@ -52,7 +52,7 @@ class App extends React.Component {
         }
         return (
             <div className='tc'>
-                <h1 className='f1'>RoboFriends</h1>
+                <h1 className='f1'>Irfan RoboFriends Application</h1>
                 <SearchBox searchchange={this.onSearchChange} />
                 <Scroll>
                     <CardList robotsParam={filteredRobots} />
